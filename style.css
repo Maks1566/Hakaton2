@@ -1,0 +1,53 @@
+@keyframes runningstroke{}
+
+.red{ /* красный */
+	background-color: red;
+}
+
+.blue{ /* синий */
+	background-color: blue;
+}
+
+.shapka{ /* шапка */
+	width: 100%;
+	height: 120px;
+}
+
+.cont{ /* тело */
+	overflow-x: hidden;
+    overflow-y: hidden;
+    min-height: 1000px;
+    width: 90%;
+}
+
+.container{
+	padding-top: 20px;
+	padding-top: 20px;
+}
+
+.ots{ /* авто-отступ */
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.banner{ /* баннер */
+	width: 90%;
+}
+
+.circ{ /* кружки */
+	top: 1500px;
+	position: absolute;
+	height: 300px;
+	width: 300px;
+	background: #C65EC9;
+	border-radius: 150px;
+	filter: blur(55px);
+	z-index: -1;
+}
+
+.button{
+	width: 1365px;
+	height: 180px;
+	background: linear-gradient(90.16deg, #96EA41 -5.24%, #6BF9BF 100.84%);
+	border-radius: 1000px;
+}
