@@ -1,5 +1,14 @@
-p:hover{
+.yaky:hover{
 	text-decoration: underline;
+}
+
+.baky{
+	position: absolute; 
+	top: -40%; 
+	left: -25%; 
+	width: 150%; 
+	height: 170%; 
+	z-index: -1;
 }
 
 .shapka{ /* шапка */
@@ -153,6 +162,15 @@ p:hover{
 		box-shadow: 0 0 1px 1px skyblue;
 		transition: 1s ease;
 	}
+
+	.baky{
+		position: absolute; 
+		top: -40%; 
+		left: -25%; 
+		width: 150%; 
+		height: 140%; 
+		z-index: -1;
+	}
 }
 
 @media (max-width: 450px){
@@ -162,6 +180,14 @@ p:hover{
 		background: white;
 		display: flex;
 		position: fixed;
+	}
+	.baky{
+		position: absolute; 
+		top: -40%; 
+		left: -25%; 
+		width: 150%; 
+		height: 100%; 
+		z-index: -1;
 	}
 }
 
