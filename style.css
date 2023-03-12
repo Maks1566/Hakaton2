@@ -1,0 +1,203 @@
+.yaky:hover{
+	text-decoration: underline;
+}
+
+.baky{
+	position: absolute; 
+	top: -40%; 
+	left: -25%; 
+	width: 150%; 
+	height: 170%; 
+	z-index: -1;
+}
+
+.shapka{ /* шапка */
+	width: 100%;
+	height: 14%;
+	background: white;
+	display: flex;
+	position: fixed;
+}
+
+.strHat{
+	display: flex; 
+	margin-left: auto; 
+	margin-right: 10%; 
+	font-family: Shnobel;
+	text-align: right;
+
+}
+
+.imgHat{
+	height: 50%; 
+	margin-top: auto; 
+	margin-bottom: auto;
+}
+
+.textHat{
+	height: 90%;
+	font-size: 200%;
+}
+
+
+.red{ /* красный */
+	background-color: red;
+}
+
+.blue{ /* синий */
+	background-color: blue;
+}
+
+.cont{ /* тело */
+	padding-top: 10%;
+    min-height: 1000px;
+    width: 90%;
+    text-decoration: none;
+}
+
+.container{
+	padding-top: 20px;
+	padding-top: 20px;
+}
+
+.ots{ /* авто-отступ */
+	margin-right: auto;
+	margin-left: auto;
+}
+.otsTB{ /* авто-отступ */
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.banner{ /* баннер */
+	width: 100%;
+}
+
+.circ{ /* кружки */
+	position: absolute;
+	height: 21.5%;
+	width: 13%;
+	border-radius: 150px;
+	filter: blur(55px);
+	z-index: -1;
+}
+
+.button{
+	font-family: Ruberoid;
+	width: 90%;
+	height: 120px;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 50px;
+	background: linear-gradient(90.16deg, #96EA41 -5.24%, #6BF9BF 100.84%);
+	border-radius: 1000px;
+	box-shadow: 0 0 1px 1px skyblue;
+	transition: 1s ease;
+}
+.button:hover{
+	box-shadow: 0 0px 60px 10px #6BF9BF;
+	transition: 1s ease;
+}
+
+@keyframes runningstroke{
+	from {
+		margin-left: -68%;
+	}
+	to {
+		margin-left: -1%;
+	}
+}
+
+@media (max-width: 1024px){
+	.button{
+		z-index: 1;
+		font-family: Ruberoid;
+		width: 90%;
+		height: 50px;
+		text-align: center;
+		font-size: 25px;
+		padding-top: 20px;
+		background: linear-gradient(90.16deg, #96EA41 -5.24%, #6BF9BF 100.84%);
+		border-radius: 1000px;
+		box-shadow: 0 0 1px 1px skyblue;
+		transition: 1s ease;
+	}
+}
+
+@media (max-width: 850px){
+	.shapka{ /* шапка */
+		width: 100%;
+		height: 6%;
+		background: white;
+		display: flex;
+		position: fixed;
+	}
+
+	.imgHat{
+		height: 50%; 
+		margin-top: auto; 
+		margin-bottom: auto;
+	}
+
+	.textHat{
+		height: 90%;
+		font-size: 70%;
+	}
+
+	.strHat{
+		display: flex; 
+		margin-left: auto; 
+		margin-right: 30%;;
+		font-family: Shnobel;
+	}
+
+	.button{
+		font-family: Ruberoid;
+		width: 90%;
+		height: 25px;
+		text-align: center;
+		font-size: 12px;
+		padding-top: 10px;
+		background: linear-gradient(90.16deg, #96EA41 -5.24%, #6BF9BF 100.84%);
+		border-radius: 1000px;
+		box-shadow: 0 0 1px 1px skyblue;
+		transition: 1s ease;
+	}
+
+	.baky{
+		position: absolute; 
+		top: -40%; 
+		left: -25%; 
+		width: 150%; 
+		height: 140%; 
+		z-index: -1;
+	}
+}
+
+@media (max-width: 450px){
+	.shapka{ /* шапка */
+		width: 100%;
+		height: 5%;
+		background: white;
+		display: flex;
+		position: fixed;
+	}
+	.baky{
+		position: absolute; 
+		top: -40%; 
+		left: -25%; 
+		width: 150%; 
+		height: 100%; 
+		z-index: -1;
+	}
+}
+
+@font-face {
+  font-family: "Shnobel";
+  src: url(fonts/Shnobel-Regular.otf);
+}
+
+@font-face {
+  font-family: "Ruberoid";
+  src: url(fonts/Ruberoid-Regular.ttf);
+}
