@@ -89,10 +89,18 @@ p:hover{
 	transition: 1s ease;
 }
 
-@keyframes runningstroke{}
+@keyframes runningstroke{
+	from {
+		margin-left: -68%;
+	}
+	to {
+		margin-left: -1%;
+	}
+}
 
 @media (max-width: 1024px){
 	.button{
+		z-index: 1;
 		font-family: Ruberoid;
 		width: 90%;
 		height: 50px;
