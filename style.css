@@ -15,6 +15,8 @@ p:hover{
 	margin-left: auto; 
 	margin-right: 10%; 
 	font-family: Shnobel;
+	text-align: right;
+
 }
 
 .imgHat{
@@ -39,8 +41,6 @@ p:hover{
 
 .cont{ /* тело */
 	padding-top: 10%;
-	overflow-x: hidden;
-    overflow-y: hidden;
     min-height: 1000px;
     width: 90%;
 }
@@ -129,7 +129,7 @@ p:hover{
 	.strHat{
 		display: flex; 
 		margin-left: auto; 
-		margin-right: 20%; 
+		margin-right: 30%;;
 		font-family: Shnobel;
 	}
 
@@ -144,6 +144,16 @@ p:hover{
 		border-radius: 1000px;
 		box-shadow: 0 0 1px 1px skyblue;
 		transition: 1s ease;
+	}
+}
+
+@media (max-width: 450px){
+	.shapka{ /* шапка */
+		width: 100%;
+		height: 5%;
+		background: white;
+		display: flex;
+		position: fixed;
 	}
 }
 
